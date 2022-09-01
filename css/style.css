@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+.left-content{
+    float:left;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 110px;
+    height: 45px;
+    position: relative;
+    top: 69px;
+    left: 82px;
+    z-index: 1;
+}
+
+.logo img{
+    position: relative;
+    width: 110px;
+    height: 45px;
+}
+
+.girl-img{
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 980px;
+    margin-top: -52px;
+}
+
+.girl-img img{
+    width: 700px;
+    height: 920px;
+}
+
+.right-content{
+    /* border: 2px solid pink; */
+    float: right;
+    margin-right: 35px;
+    width: 1115px;
+    height: 909px;
+}
+
+.rule{
+    /* background: 2px solid brown; */
+    height: 850px;
+    width: 650px;
+}
+
+.rule img{
+    width: 650px;
+    height: 150px;
+    margin-left: -108px;
+    margin-top: 16px;
+}
+
+.navbar{
+    float: right;
+}
+
+nav{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-left: -600px;
+}
+
+nav li{
+    list-style: none;
+}
+
+.nav-items{
+    padding: 0 42px;
+    font-size: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.item1{
+    opacity: 1;
+}
+
+.icon-section{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 240px;
+    margin-right: 47px;
+}
+
+[alt*="facebook"]{
+    height: 28px;
+}
+
+.icons{
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+.s1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 143px;
+    position: relative;
+    bottom: 60px;
+}
+
+.s2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 115px;
+    position: relative;
+    top: 57px;
+    right: 170px;
+}
+
+.s3{
+    /* border: 0.5px solid olivedrab; */
+    font-family: 'Work Sans', sans-serif;
+    display: inline-block;
+    opacity: 0.5;
+    font-weight: 600;
+    font-size: 42px;
+    margin-left: 38px;
+    position: relative;
+    height: 62px;
+    width: 200px;
+    top: 90px;
+    right: 170px;
+}
+
+.btn1{
+    /* border: 1px solid maroon; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+    background-color: #333333;
+    color: #ffff;
+    position: relative;
+    left: 688px;
+    height: 55px;
+    width: 380px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.dance-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+
+.dance-section-cards{
+    padding: 0 45px;
+}
+
+.center-cards{
+    padding: 8px 20px;
+}
+
+.quote-icon-section{
+    /* border: 1px solid green; */
+    height: 30px;
+}
+
+.quote-icon-section img{
+    width: 80px;
+    height: 40px;
+}
+
+.quote-section{
+    /* border: 1px solid navy; */
+    height: 30px;
+    width: 480px;
+    margin-top: 15px;
+}
+
+.quote-section p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    /* line-height: 25px; */
+    width: 480px;
+    margin-top: -10px;
+}
+
+.list-section{
+    /* border: 1px solid violet; */
+    margin-left: -30px;
+}
+
+.list-section li{
+    font-family: 'Roboto Slab', serif;
+    padding: 17px 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.l1{
+    margin-top: -4px;
+}
+
+.l2{
+    margin-top: 3px;
+}
+
+.l3{
+    margin-top: 6px;
+}
+
+.l4{
+    margin-top: 10px;
+}
+
+.l5{
+    margin-top: 8px;
+}
+
+.dance-img-section img{
+    width: 490px;
+    height: 210px;
+    margin-top: 12px;
+}
+
+.scrollbar-section{
+    /* border: 1px solid red; */
+    height: 160px;
+    width: 70px;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.scrollbar-section img{
+    height: 160px;
+    width: 70px;
+}
+
+.timeline-section{
+    /* border: 1px solid saddlebrown; */
+    margin-left: 15px;
+    margin-top: 15.5px;
+}
